@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T12:48:08.580Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Rq7AYnxdHRJrivnrX21J" version="15.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-13T10:34:57.728Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="g0sF6ou7_xZlRTK06IMT" version="15.5.1" type="github">
   <diagram id="dxATKS6AW8bVeMNG8dj3" name="Page-1">
     <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,25 +78,59 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="k14_2NRrJhWUmqF3PcBj-29" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="341" y="728" width="123" height="111" as="geometry" />
+          <mxGeometry x="346" y="685" width="123" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="k14_2NRrJhWUmqF3PcBj-30" value="If NVR port open" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="371" y="753" width="60" height="49" as="geometry" />
+        <mxCell id="k14_2NRrJhWUmqF3PcBj-30" value="If NVR VH Enabled" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="376" y="710" width="60" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="CruK3KUdXyLxkx5VGWoL-1" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="CruK3KUdXyLxkx5VGWoL-1" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="347" y="563" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CruK3KUdXyLxkx5VGWoL-2" value="Send ISAPI command to NVR to check VH status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CruK3KUdXyLxkx5VGWoL-2" value="Send ISAPI command to NVR to check VH status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="577" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CruK3KUdXyLxkx5VGWoL-5" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="388" y="526" width="60" height="30" as="geometry" />
+        <mxCell id="CruK3KUdXyLxkx5VGWoL-5" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="387" y="526" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CruK3KUdXyLxkx5VGWoL-6" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CruK3KUdXyLxkx5VGWoL-6" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="310" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CruK3KUdXyLxkx5VGWoL-7" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CruK3KUdXyLxkx5VGWoL-7" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="387" y="236" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Csygmle19NyqBfInvzME-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CruK3KUdXyLxkx5VGWoL-1" target="k14_2NRrJhWUmqF3PcBj-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="680" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Csygmle19NyqBfInvzME-2" value="Do nothing" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="151" y="698.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Csygmle19NyqBfInvzME-3" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="261" y="714" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Csygmle19NyqBfInvzME-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="347" y="740.5" as="sourcePoint" />
+            <mxPoint x="231" y="740.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Csygmle19NyqBfInvzME-5" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="397" y="795" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Csygmle19NyqBfInvzME-6" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="834" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Csygmle19NyqBfInvzME-7" value="Enable VH option and save log" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="848" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Csygmle19NyqBfInvzME-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.167;entryY=1.267;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Csygmle19NyqBfInvzME-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="407" y="796" as="sourcePoint" />
+            <mxPoint x="457" y="746" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
